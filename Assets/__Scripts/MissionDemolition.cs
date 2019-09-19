@@ -10,16 +10,17 @@ public enum GameMode
 }
 
 public class MissionDemolition : MonoBehaviour {
-    static private MissionDemolition S; // a private Singleton
 
     [Header("Set in Inspector")]
 
 
     [Header("Set Dynamically")]
 
+    static private MissionDemolition S; // a private Singleton
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
 
     }
