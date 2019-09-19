@@ -130,6 +130,10 @@ public class Slingshot : MonoBehaviour {
 
             projectile = null;
 
+            MissionDemolition.ShotFired();                             // a
+
+            ProjectileLine.S.poi = projectile;
+
         }
     }
     static public Vector3 LAUNCH_POS
